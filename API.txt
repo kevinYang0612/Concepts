@@ -1,0 +1,44 @@
+API: application programming interface. 
+A set of commands, functions, protocols, and objects that programmers can use to create software
+or interact with an external system.
+It is like a contract, a contract between the data provider and the developer. These are all the things 
+that developers can access, and these are the methods, objects, the protocols you would use to access.
+We, the developers, as the website hosts the data, will try to not change any of these methods or function
+without notifying you.
+
+Your server request through APIs on someone else's server. Someone else's server will response. 
+
+Analogy: you go to a restaurant, the menu is what they sell, if you go to the kitchen, 
+you see ingredients. You can't eat ingredients, you only can eat what is on the menu. 
+The stuff in the kitchen is off-limits. 
+
+Like weather API, you get to access temperature, weather condition, weather image, and etc
+
+Example: Yahoo main page has weather forcast. It is not Yahoo's job to collect weather data. 
+They could use a weather data service, all they need to do is to use their API to tap into that
+live weather data, they are able to pull data into website.
+
+
+Endpoint: every API that interacts with a external system like a server, will have an endpoint
+For example, kanye.rest API endpoint is a URL "https://api.kanye.rest". They will always tell you
+what it is in documentation. 
+
+Path and parameter can use in order to narrow down on a specific piece of data you want from an external server.
+
+Paths: Like joke API allow you to access a database of random jokes and through the use of path and parameters
+we are going to customize the kind of jokes we want to get back. 
+such as "https://sv443.net/jokeapi/v2/joke/Programming" is the path to get a joke of programming
+The endpoint is "https://sv443.net/jokeapi/v2/joke/", "Programming" is the path. 
+
+Parameters: order of parameter does not matter, they are key=value pair, q=paris&units=metric
+"https://sv443.net/jokeapi/v2/joke/Programming?contains=debugging" where after ? is the parameter
+if you have more than one parameter, you separate with an ampersand &
+If I search a joke contain specific string of joke, we need parameter, 
+such as I search a joke containing string: debugging. this is the parameter
+
+Authentication: Every user uses a API, needs a key to keep track of your uses. 
+Everytime you make a request through the API, they have to be able to identify you as the developer
+and they keep track of how often you are using their server to get data, and then charge you or limit you. 
+
+
+
