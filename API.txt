@@ -40,5 +40,15 @@ Authentication: Every user uses a API, needs a key to keep track of your uses.
 Everytime you make a request through the API, they have to be able to identify you as the developer
 and they keep track of how often you are using their server to get data, and then charge you or limit you. 
 
+Client Broswer, our user is going to visit our website through their browser. That is going to make a 
+request to our server, and that is going to be a GET REQUEST. It's going to try and get the HTML, CSS, and JS
+from our server. 
 
+At this point, our server should RESPONSE return all of the pieces of data. 
+
+In order to give them that RESPONSE that includes some data from somebody else's server, we'are going to
+make a request to that other server. Again, going to be a GET REQUEST, (Via API)so that they will give us a REQUEST
+in the form of the data. Via API, via the menu that they provided for us to make our requests, where they've specified what
+are the things that we need to pass over, like parameters, what paths, what key-value pairs in order to get the response
+and the data that we want. 
 
